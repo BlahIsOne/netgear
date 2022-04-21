@@ -1,0 +1,1 @@
+rm -rf a;rm -rf b; rm -rf c; rm -rf d;zmap -p8080 -wThebest.lst -oa;zmap -p80 -wThebest.lst -ob;zmap -p8888 -wThebest.lst -oc;zmap -p8000 -wThebest.lst -od;cat a b c d > done; python Loader.py done
